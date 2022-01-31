@@ -4,6 +4,6 @@ import Hello from "./Hello";
 
 it('renders "Hello World"', () => {
   render(<Hello />);
-  const element = screen.getByText(/Hello World/);
+  const element = screen.getByText(/Hello world/);
   expect(element).toBeInTheDocument();
 });
